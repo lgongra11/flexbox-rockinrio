@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#aprenda {
+    color: rgb(77, 0, 132);
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    gap: 77%;
+}
+
+#menu{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
+
+}
+
+#unidos{
+    color: rgb(77, 0, 132);
+}
+
+#inicio{
+    background-color: rgba(108, 108, 253, 0.762);
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    line-height: 45px;
+}
+
+#inicio img{
+    width: 400px;
+    height: auto;
+}
+
+#inicio h2 {
+    font-size: 50px;
+}
+
+#destaque {
+    padding: 20px;
+}
+
+#destaque h2 {
+    font-size: 45px;
+}
+
+#conheca {
+    color: rgb(77, 0, 132);
+}
+
+.cards {
+    background-color: rgba(108, 108, 253, 0.762);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.cards h3 {
+    font-size: 35px;
+}
+
+.cards img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+hr {
+    margin: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: gray;
+}
